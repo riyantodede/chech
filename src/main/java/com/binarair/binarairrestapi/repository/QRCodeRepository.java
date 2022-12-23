@@ -1,7 +1,7 @@
 package com.binarair.binarairrestapi.repository;
 
 import com.binarair.binarairrestapi.model.entity.Booking;
-import com.binarair.binarairrestapi.model.entity.QRCode;
+import com.google.zxing.qrcode.encoder.QRCode;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
